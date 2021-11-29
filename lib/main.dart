@@ -15,7 +15,8 @@ class Home extends StatelessWidget {
       appBar: AppBar(
           title: Text('App_store'),
           centerTitle: true,
-          backgroundColor: Color.fromARGB(25, 141, 175, 100)),
+          backgroundColor: Colors.teal[500]
+          ),
       body: Center(
         child: Text('Home')
       ,)
